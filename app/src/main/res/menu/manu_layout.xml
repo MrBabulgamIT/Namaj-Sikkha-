@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_update"
+                    android:icon="@drawable/ic_system_update_alt_black_24dp"
+                    android:title="@string/update" />
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/ic_settings_black_24dp"
+                    android:title="@string/setting" />
+
+
+            </group>
+        </menu>
+
+    </item>
+
+
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="@string/rate_us" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_rate_review_black_24dp"
+                android:title="@string/feedback" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_contact_phone_black_24dp"
+                android:title="Contact Us" />
+
+        </menu>
+    </item>
+
+</menu>

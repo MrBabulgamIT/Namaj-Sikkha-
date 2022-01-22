@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="#D3FCD3"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+
+
+        <!-- Below is the first modification to layout_width -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:orientation="vertical"
+          >
+
+
+            <TextView
+                android:id="@+id/number_id"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:textSize="30dp"
+                />
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="60"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:id="@+id/bangla_AllahName_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="আর রাহমান "
+                android:textColor="#FF9800"
+                android:textSize="25dp"
+                style="@style/TextAppearance.AppCompat.Large"
+                />
+
+
+            <TextView
+                android:id="@+id/bangla_meaning_allahName_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(পরম দয়ালু)"
+                android:textColor="#131413"
+                android:textIsSelectable="true"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                style="@style/TextAppearance.AppCompat.Medium"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="25"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/arbi_allah_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الله"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:textIsSelectable="true"
+                android:textColor="#0D0DBD"
+                android:textSize="30dp"/>
+        </LinearLayout>
+
+            </LinearLayout>
+
+</androidx.cardview.widget.CardView>

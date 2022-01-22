@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FIveKalimaName">
+
+    <ExpandableListView
+        android:id="@+id/kalimaExpandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:divider="#0B206B"
+        android:listSelector="#22FF73"
+        android:dividerHeight="1dp" />
+
+</FrameLayout>
